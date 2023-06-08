@@ -30,6 +30,14 @@
   display: flex;
 }
 
+
+
+.columns > div > div > h2 {
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+
 .highlight .columns > div > div > h2 {
   font-weight: 300;
   color: #093c61;
@@ -38,11 +46,6 @@
   border-bottom: 1px solid #e35205;
   display: inline-block;
   margin-bottom: 10px;
-}
-
-.columns > div > div > h2 {
-  font-weight: 400;
-  line-height: 1.4;
 }
 
 main .section.highlight > div.columns-wrapper > div > div {
