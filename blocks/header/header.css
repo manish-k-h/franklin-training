@@ -273,3 +273,16 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+
+
+header nav .nav-sections ul{
+  float: right;
+}
+
+header nav{
+  gap: unset;
+}
+
+header .nav-wrapper{
+  box-shadow: 0px 0px 9px 0px #0000004d;
+}

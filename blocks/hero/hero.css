@@ -2,6 +2,7 @@
 
 main .hero-container > div {
   max-width: unset;
+  position: relative;;
 }
   
 main .hero-container {
@@ -9,7 +10,7 @@ main .hero-container {
 }
   
 main .hero {
-  position: relative;
+ 
   padding: 32px;
   min-height: 300px;
 }
@@ -20,7 +21,7 @@ main .hero h1 {
   margin-right: auto;
   color: white;
 }
-
+/* 
 main .hero picture {
   position: absolute;
   z-index: -1;
@@ -30,7 +31,7 @@ main .hero picture {
   right: 0;
   object-fit: cover;
   box-sizing: border-box;
-}
+} */
 
 main .hero img {
   object-fit: cover;
@@ -42,7 +43,8 @@ main .hero img {
   width: 92vw;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 36px 0 75px;
+  padding: 36px 0 0px;
+  
 
 }
 .hero.block + div{
@@ -52,4 +54,48 @@ main .hero img {
     background-position: center top;
     
     
+}
+
+.hero.block .banner-imagetext{
+  background-image: url("/icons/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    position: absolute;
+    bottom: 0px;
+    animation: slide-in 0.5s forwards;
+    width: 730px;
+    height: 350px;
+    left: 0;
+}
+
+
+
+.banner-imagetext h2{
+  font-weight: 300;
+  color: #ffaf00;
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: unset;
+  position: relative;
+}
+
+.banner-imagetext p{
+font-size: 16px;
+color: #fff;
+}
+
+.banner-imagetext > div{
+width: 730px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 52%;
+  margin: 0 auto;
+}
+
+.hero.block picture{
+  line-height: unset;
+  display: inline-flex;
 }
