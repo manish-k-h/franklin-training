@@ -62,7 +62,7 @@ main .hero img {
     background-size: 100% auto;
     background-position: center top;
     position: absolute;
-    bottom: 0px;
+    bottom: 11px;
     animation: slide-in 0.5s forwards;
     width: 730px;
     height: 350px;
