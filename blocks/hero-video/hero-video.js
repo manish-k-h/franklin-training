@@ -175,3 +175,4 @@ export default function decorate(block) {
   decorateOverlayButton(fullScreenVideoLink, block, overlay);
   decorateFullScreenVideo(fullScreenVideoLinkHref, teaserPicture, videoBanner);
 }
+
